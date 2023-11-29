@@ -7,27 +7,7 @@
                 <div class="flex items-center space-x-2">
                     <img src="https://i.pravatar.cc/300?img=70" class="w-[40px] rounded-full">
                     
-                    <p class="text-xs"><strong>Code With Stein</strong></p>
-                </div>
-
-                <a href="#" class="py-2 px-3 bg-blue-600 text-white text-xs rounded-lg">Show</a>
-            </div>
-
-            <div class="flex items-center justify-between">
-                <div class="flex items-center space-x-2">
-                    <img src="https://i.pravatar.cc/300?img=70" class="w-[40px] rounded-full">
-                    
-                    <p class="text-xs"><strong>Code With Stein</strong></p>
-                </div>
-
-                <a href="#" class="py-2 px-3 bg-blue-600 text-white text-xs rounded-lg">Show</a>
-            </div>
-
-            <div class="flex items-center justify-between">
-                <div class="flex items-center space-x-2">
-                    <img src="https://i.pravatar.cc/300?img=70" class="w-[40px] rounded-full">
-                    
-                    <p class="text-xs"><strong>Code With Stein</strong></p>
+                    <p class="text-xs"><strong>Coming Soon</strong></p>
                 </div>
 
                 <a href="#" class="py-2 px-3 bg-blue-600 text-white text-xs rounded-lg">Show</a>
