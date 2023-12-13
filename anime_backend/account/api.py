@@ -45,7 +45,7 @@ def signup(request):
         send_mail(
             "Please verify your email",
             f"The url for activating your account is: {url}",
-            "noreply@wey.com",
+            "noreply@cookhook.com",
             [user.email],
             fail_silently=False,
         )
@@ -82,7 +82,7 @@ def editprofile(request):
     email = request.data.get('email')
 
     if User.objects.exclude(id=user.id).filter(email=email).exists():
-        return JsonResponse({'message': 'email already exists'})
+        return JsonResponse({'message': 'Datos invalidos'})
     else:
         form = ProfileForm(request.POST, request.FILES, instance=user)
 

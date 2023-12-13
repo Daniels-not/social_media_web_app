@@ -110,6 +110,7 @@ export default {
                             this.form.name = ''
                             this.form.password1 = ''
                             this.form.password2 = ''
+                            this.$router.push('/login')
                         } else {
                             const data = JSON.parse(response.data.message)
                             for (const key in data){

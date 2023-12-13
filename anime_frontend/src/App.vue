@@ -2,7 +2,8 @@
     <nav class="py-10 px-8 border-b border-gray-200">
         <div class="max-w-7xl mx-auto">
             <div class="flex items-center justify-between">
-                <div class="menu-left">
+                <div class="menu-left flex items-center">
+                    <img src="./assets/photo1702436453.jpeg" alt="Logo de CookHook" class="w-8 h-8 mr-2">
                     <a href="#" class="text-xl">CookHook</a>
                 </div>
 
@@ -48,7 +49,7 @@
         </div>
     </nav>
 
-    <main class="px-8 py-6 bg-gray-100">
+    <main class="px-8 py-6 bg-white-200">
         <RouterView />
     </main>
 
